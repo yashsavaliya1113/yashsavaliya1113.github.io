@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found | Yash Savaliya</title>
+  <meta name="robots" content="noindex">
+  <script>
+    // Old or guessed paths: try the same path inside the portfolio, which is where the site lives.
+    var p = location.pathname;
+    if (p.indexOf("/portfolio/") !== 0) location.replace("/portfolio" + p + location.search + location.hash);
+  </script>
+  <style>body{font-family:system-ui,sans-serif;max-width:32rem;margin:20vh auto;padding:0 1rem;line-height:1.5}</style>
+</head>
+<body>
+  <h1>Page not found</h1>
+  <p><a href="/portfolio/">Go to the portfolio</a></p>
+</body>
+</html>

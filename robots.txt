@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yashsavaliya1113.github.io/portfolio/sitemap.xml
